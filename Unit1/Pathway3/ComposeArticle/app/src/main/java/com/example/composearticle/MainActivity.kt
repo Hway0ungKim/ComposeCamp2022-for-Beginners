@@ -25,7 +25,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            ComposeTutorial1Theme {
+            ComposeArticleTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize(),
@@ -98,7 +98,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    ComposeTutorial1Theme {
+    ComposeArticleTheme {
         Column() {
             TopImage()
             TopText(message = "Jetpack Compose tutorial")
