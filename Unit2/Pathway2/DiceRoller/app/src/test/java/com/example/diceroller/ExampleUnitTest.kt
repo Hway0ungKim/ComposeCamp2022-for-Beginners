@@ -1,4 +1,4 @@
-package com.scentov.diceroller
+package com.example.diceroller
 
 import org.junit.Test
 
